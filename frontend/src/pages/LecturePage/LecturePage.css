@@ -1,0 +1,24 @@
+.lecture-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .lecture-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .video-section {
+    flex: 2;
+  }
+  
+  .progress-section {
+    flex: 1;
+  }
+  
+  @media (max-width: 768px) {
+    .lecture-content {
+      flex-direction: column;
+    }
+  }
